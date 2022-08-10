@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ZweiSoms163.github.io/testLab",
+  "homepage": "https://ZweiSoms163.github.io/TestLab",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d testLab"
   },
   "keywords": [],
   "author": "",
