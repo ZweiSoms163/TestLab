@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+  />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/mobile-nav-button.css">
+    <link rel="stylesheet" href="src/mobile-nav.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+    <title>TestLab</title>
+  </head>
+  <body>
+      <section class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__firtRow">
+              <div class="header__logo">
+                <img src="img/TestLabLogo.svg" alt="Логотип" />
+              </div>
+              <div class="header__nav">
+              
+                  <a class="header__link">Как это работает</a>
+                  <a class="header__link">3-й блок</a>
+                  <a class="header__link">Вопросы и ответы</a>
+                  <a class="header__link">Форма</a>
+             
+              </div>
+              <button type="button" class="mobile-nav-button">
+                <span class="mobile-nav-button__icon"></span>
+              </button>
+            </div>
+            <div class="header__secondeRow">
+              <h1 class="header__title">Говорят, никогда не поздно сменить профессию</h1>
+              <div class="header__subtitle">Сделай круто тестовое задание и у тебя получится</div>
+              <button class="header__button">Проще простого!</button>
+            </div>
+            <div class="header__backgroundLunch">
+              <img src="img/backgroundLunch.svg" alt="background" />
+            </div>
+            <div class="header__blueBackground">
+              <img src="img/blueBackgroundHeader.svg" alt="background" />
+            </div>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <img class="mobile-nav-logo" src="img/TestLabLogo768.svg"
+           alt="Logo" />
+          <nav class="mobile-nav-list">
+            <ul>
+              <li><a href="#">Как это работает</a></li>
+              <li><a href="#">3-й блок</a></li>
+              <li><a href="#">Вопросы и ответы</a></li>
+              <li><a href="#">Форма</a></li>
+            </ul>
+            
+          </nav>
+        </div>
+      </section>
+      <section class="howWorks">
+        <div class="container">
+          <div class="howWorks__inner">
+            <h2 class="howWorks__headerTitle">Как это работает</h2>
+            <div class="howWorks__cards">
+              <div class="howWorks__card">
+                <img src="img/cursorHowWorks.svg" alt="icon" class="howWorks__card-img">
+                <div class="howWorks__card-info">
+                  <h6 class="howWorks__title">Прочитай задание внимательно</h6>
+                  <div class="howWorks__subtitle">Думаю у тебя не займет это больше двух-трех минут</div>
+                </div>
+              </div>
+              <div class="howWorks__card">
+                <img src="img/truckHowWorks.svg" alt="icon" class="howWorks__card-img">
+                <div class="howWorks__card-info">
+                  <h6 class="howWorks__title">Изучи весь макет заранее</h6>
+                  <div class="howWorks__subtitle">Подумай как это будет работать на разных разрешениях и при скролле</div>
+                </div>
+              </div>
+              <div class="howWorks__card">
+                <img src="img/padHowWorks.svg" alt="icon" class="howWorks__card-img">
+                <div class="howWorks__card-info">
+                  <h6 class="howWorks__title">Сделай хорошо</h6>
+                  <div class="howWorks__subtitle">Чтобы мы могли тебе доверить подобные задачи в будущем</div>
+                </div>
+              </div>
+              <div class="howWorks__card">
+                <img src="img/bagsHowWorks.svg" alt="icon" class="howWorks__card-img">
+                <div class="howWorks__card-info">
+                  <h6 class="howWorks__title">Получи предложение</h6>
+                  <div class="howWorks__subtitle">Ну тут все просто, не я придумал правила, но думаю так и будет)))</div>
+                </div>
+              </div>
+            </div>
+            <div class="howWorks__phoneBlock">
+              <div class="phoneBlock__left">
+                <h3 class="phoneBlock__title"> Круто, ты дошел до третьего блока </h3>
+                <div class="phoneBlock__subtitle">
+                  63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы свыше 15 000 ₽. <br>
+                  Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах.
+                </div>
+              </div>
+              <div class="phoneBlock__right">
+                <img src="img/phoneHowWorks.svg" alt="phoneBackground" class="phoneBlock__right-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__inner">
+            <h2 class="reviews__Title">Отзывы</h2>
+            <div class="reviews__cards swiper mySwiper containe">
+              <div class="swiper-wrapper ">
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">      
+                  <div class="reviews__card">
+                    <div class="reviews_card-row">
+                      <img src="/img/Avatar.svg" alt="avatar" class="reviews__avatar">
+                      <div class="reviews__info">
+                        <div class="reviews__info-title">Константинов Михаил <br> Павлович</div>
+                        <div class="reviews__info-subtitle">Санкт-Петербург</div>
+                      </div>
+                    </div>
+                    <div class="reviews__info-text">Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swipre__nav">
+                <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+          </div>
+        </div> 
+          </div>
+      </section>
+      <section class="footer" >
+        <p class="footer__name">© 2021 Лаборатория интернет</p>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 1,
+        breakpoints: {
+          1300:{
+             slidesPerView: 3,
+             spaceBetween: 10
+          },
+          768:{
+             slidesPerView: 2,
+             spaceBetween: 10,
+          },
+          320:{
+             slidesPerView: 1, 
+             spaceBetween: 10
+          }
+        },
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
